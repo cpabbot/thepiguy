@@ -1,0 +1,111 @@
+body {
+    background-color: #ccffff;
+    background-image: url("http://www.institute-kravmaga.co.uk/wp-content/uploads/2013/03/gradient_bg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0;
+   }
+
+/* sidebar */
+ul.sidebar {
+    background-color: grey;
+    width:0%;
+    float: left;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-top: 0%;
+    transition: 0.3s;
+    opacity: 0;
+    margin-top: 3.5%;
+}
+ul.sidebarClick {
+    background-color: white;
+    width:150px; /*13%*/
+    float: left;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 10px 10px 25px grey;
+    opacity: 100;
+}
+li.sidebar {
+    list-style-type: none;
+    padding: 10px;
+}
+li.sidebar a {
+    text-decoration: none;
+    color: black;
+    padding: 14px 16px;
+    display: block;
+}
+li.sidebar a:hover:not(.active) {
+   background-color: #f2f2f2;
+   }
+h1.header {
+       font-family:verdana;
+       font-size:2.5em;
+       text-align:center;
+       margin-top: 70px;
+  }
+ul.hNav {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   box-shadow: 10px 10px 25px grey;
+ }
+li.hNav {
+    float: left;
+}
+li.hNav a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   }
+li.hNav a:hover:not(.active) {
+   background-color: #111;
+   }
+.active {
+   background-color: #4CAF50;
+   }
+#leftIcon {
+    position: absolute;
+    top: 60px;
+}
+.main {
+       border: 3px solid #000066;
+       border-color: blue;
+       margin: auto;
+       margin-top: 70px;
+       margin-right: 0;
+       width: 91%;
+       padding: 30px 50px;
+       background-color: #33ccff;
+   }
+p.main {
+       <!--font-size: "6";-->
+   }
+
+#mOutput {
+  border: 7px groove #00ffff;
+  width: 300px;
+  height: 100px;
+  background-color: #e6e6e6;
+  text-align: center;
+}
+#mOutputP {
+  font-size:32px;
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;
+ }
